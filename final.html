@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>template</title>
+  <link rel="stylesheet" href="menubarrr.css">
+  <link rel="stylesheet" href="demostyle.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <style> .logo-img {
+    max-width: 250px; /* Adjust the width as desired */
+    padding: 20px;
+  }
+  #search-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #000000;
+      padding: 10px;
+      transition: all 1s ease;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+    }
+    
+    #search-container.right {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  transform: none;
+  animation-name: moveSearchBar;
+  width: fit-content;
+  margin-left: auto;
+  
+}
+
+    #search-container input[type="search"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+      background-color: #fff;
+    }
+    
+    @keyframes moveSearchBar {
+      0% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      100% {
+        top: 30px;
+        right: 20px;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+          <img src="logo2.svg" alt="Logo"class="logo-img">
+          <nav>
+            <ul class="menu">
+              <li><a href="#!">Home</a></li>
+              <li><a href="#!">About</a></li>
+              <li><a href="#!">Contact</a></li>
+              <li><a href="#!">Faq</a></li>
+            </ul>
+          </nav> 
+        </div> 
+       
+    </div>
+
+    <div id="search-container">
+      <form id="search-form" action="#" method="get">
+        <input id="search-input" type="search" required>
+        <i class="fa fa-search"></i>
+      </form>
+    </div>
+</body>

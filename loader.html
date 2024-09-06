@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>JQuery Preloader</title>
+      <!-- <link rel="stylesheet" href="master.css"> -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+            body {
+                  background: #ffffff;
+                  padding: 0;
+                  width: 100vw;
+                  height: 100vh;
+                  overflow: hidden;
+                  font-family: Poppins;
+            }
+            
+            .loading-page {
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  background: #000000;
+                  width: 100%;
+                  height: 100vh;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  transition: width .25s ease-in-out;
+            }
+            
+            </style>
+</head>
+<body>
+      <div class="loading-page">
+          
+      </div>
+
+      <script type="text/javascript">
+            $(document).ready(function() {
+                  var counter = 0;
+                  var c = 0;
+                  var i = setInterval(function() {
+                        
+                        $(".loading-page").css("width", c + "%");
+
+                        counter++;
+                        c++;
+                        if(counter == 101) {
+                              clearInterval(i);
+                        }
+                  }, 600);
+            });
+      </script>
+</body>
+</html>

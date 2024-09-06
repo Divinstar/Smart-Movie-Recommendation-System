@@ -1,0 +1,111 @@
+[
+    {
+        "movie": "Enchanted",
+        "year": "2007",
+        "search_results": [
+            {
+                "tconst": "tt0461770",
+                "title": "Enchanted",
+                "year": "2007"
+            }
+        ]
+    },
+    {
+        "movie": "Harry Potter and the Philosopher's Stone",
+        "year": "2001",
+        "search_results": []
+    },
+    {
+        "movie": "Maleficent",
+        "year": "2014",
+        "search_results": [
+            {
+                "tconst": "tt1587310",
+                "title": "Maleficent",
+                "year": "2014"
+            }
+        ]
+    },
+    {
+        "movie": "Cinderella",
+        "year": "2015",
+        "search_results": [
+            {
+                "tconst": "tt1661199",
+                "title": "Cinderella",
+                "year": "2015"
+            },
+            {
+                "tconst": "tt5089556",
+                "title": "Cinderella",
+                "year": "2015"
+            }
+        ]
+    },
+    {
+        "movie": "Tangled",
+        "year": "2010",
+        "search_results": [
+            {
+                "tconst": "tt0398286",
+                "title": "Tangled",
+                "year": "2010"
+            }
+        ]
+    },
+    {
+        "movie": "The Princess and the Frog",
+        "year": "2009",
+        "search_results": [
+            {
+                "tconst": "tt0780521",
+                "title": "The Princess and the Frog",
+                "year": "2009"
+            }
+        ]
+    },
+    {
+        "movie": "The Little Mermaid",
+        "year": "1989",
+        "search_results": [
+            {
+                "tconst": "tt0097757",
+                "title": "The Little Mermaid",
+                "year": "1989"
+            }
+        ]
+    },
+    {
+        "movie": "Pan's Labyrinth",
+        "year": "2006",
+        "search_results": [
+            {
+                "tconst": "tt0457430",
+                "title": "Pan's Labyrinth",
+                "year": "2006"
+            }
+        ]
+    },
+    {
+        "movie": "Sleeping Beauty",
+        "year": "1959",
+        "search_results": [
+            {
+                "tconst": "tt0053285",
+                "title": "Sleeping Beauty",
+                "year": "1959"
+            }
+        ]
+    },
+    {
+        "movie": "Shrek",
+        "year": "2001",
+        "search_results": [
+            {
+                "tconst": "tt0126029",
+                "title": "Shrek",
+                "year": "2001"
+            }
+        ]
+    }
+]
